@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	b := kata.ValidBraces("[(])")
-	fmt.Println(b)
+	a := kata.High("vugmnszf")
+	fmt.Println(a)
 }
