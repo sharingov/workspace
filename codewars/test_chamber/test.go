@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	a := kata.High("vugmnszf")
+	a := kata.ProductFib(5895)
 	fmt.Println(a)
 }
