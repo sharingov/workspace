@@ -1,5 +1,6 @@
 from itertools import combinations
 
+
 def solution(n, m):
     keyrings = [[] for i in range(n)]
     for key, locations in enumerate(combinations(range(n), n - m + 1)):
