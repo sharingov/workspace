@@ -2,3 +2,4 @@ go.mod
 go.sum
 codewars/test_chamber/test.go
 loncapa
+test
