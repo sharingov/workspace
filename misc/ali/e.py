@@ -1,0 +1,9 @@
+print(
+    "".join(
+        sorted(
+            set(
+                "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890"
+            ).intersection(*input().split())
+        )
+    )
+)
